@@ -1,3 +1,15 @@
+/*
+COLOURS USED
+dark purple background: #240830
+light blue text: #baddf0
+light pink text: #fddbdc
+teal accent: #34dce5
+purple accent: #a03cb8 - I've updated this colour to #cc4beb (it's higher contrast)
+pink accent: #f260b1
+orange accent: #df6757
+yellow additional tags: #fdf9b3
+*/
+
 #header h1 sup,
 #header .button,
 #header .landmark,
