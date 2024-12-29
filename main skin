@@ -1,0 +1,842 @@
+#header h1 sup,
+#header .button,
+#header .landmark,
+#header .logo {
+  display: none;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+#outer.wrapper,
+#main,
+.listbox .index {
+  background: #240830;
+  color: #fddbdc;
+}
+
+#main a {
+  color: #cc4beb;
+}
+
+#header .heading {
+  height: 20em;
+}
+
+#header {
+  background-color: #240830;
+  background-image: url("https://i.imgur.com/6iAKNpb.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-top: 3px solid #34dce5;
+  border-bottom: 2px solid #f260b1;
+}
+
+#header .heading a {
+  color: #ffffff;
+  padding-left: 1em;
+  font-variant: small-caps;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: normal;
+  position: initial;
+}
+
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+blockquote,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.bookmark .user .meta,
+.datetime,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+  font-family: "Century Gothic", sans-serif;
+}
+
+#header .primary {
+  background: #240830;
+  box-shadow: none;
+}
+
+#header .primary li:not(.search),
+#header .primary li a,
+#greeting li,
+#greeting li a {
+  color: #cc4beb !important;
+  background: #240830;
+  border: none;
+}
+
+#header .primary li:not(.search),
+#greeting li {
+  border: none;
+}
+
+#greeting .dropdown .menu li {
+  margin: 0 0.125em !important;
+}
+
+#greeting .menu {
+  width: 12em;
+}
+
+#greeting .icon img {
+  box-shadow: none;
+  border: none;
+  border-radius: 90%;
+}
+
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a {
+  background: #cc4beb;
+  color: #240830;
+}
+
+#greeting .dropdown .menu {
+  box-shadow: none;
+}
+
+#greeting .actions a:hover,
+#greeting .actions a:focus,
+#greeting .dropdown:hover a,
+#greeting .open a,
+#greeting .dropdown .menu a {
+  background-color: #cc4beb;
+  color: #fff;
+}
+
+#header .menu {
+  background: none;
+  box-shadow: none;
+  width: 20em;
+}
+
+#header .actions a.dropdown-toggle:hover,
+#header .dropdown-toggle:hover a {
+  background-color: #240830;
+  color: #34dce5 !important;
+}
+
+#header .actions a:focus,
+#header .open a,
+#header .dropdown .menu a,
+#header .dropdown .menu {
+  background-color: #240830;
+  color: #34dce5;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  border-radius: 0px;
+}
+
+#header .dropdown .menu li,
+#greeting .current,
+#greeting .dropdown:hover li,
+#greeting .dropdown:focus li {
+  box-shadow: none;
+  background: #cc4beb;
+  color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#header #search .text,
+.search [role="tooltip"] {
+  border: none;
+  background: #f260b1;
+  color: #240830 !important;
+}
+
+#footer {
+  border-top: 8px solid;
+  border-color: #34dce5;
+}
+
+#footer.region {
+  background: #240830;
+  color: #34dce5;
+}
+
+#footer h4.heading {
+  color: #f260b1;
+}
+
+#footer a {
+  color: #34dce5 !important;
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #df6757;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #df6757;
+  font-variant: small-caps;
+  color: #df6757;
+}
+
+.splash .module a,
+h4.heading a {
+  color: #df6757 !important;
+}
+
+.splash .module a:hover,
+h4.heading a:hover {
+  color: #34dce5 !important;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #df6757;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #240830;
+  color: #df6757 !important;
+}
+
+.splash .favorite li:nth-of-type(even) a {
+  color: #df6757 !important;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(even) a:hover {
+  background-color: #240830;
+  color: #34dce5 !important;
+}
+
+#workskin h2,
+#workskin a {
+  color: #34dce5 !important;
+  font-variant: small-caps;
+}
+
+#workskin {
+  background: none;
+  border: 1px solid #34dce5;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div.preface {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid double #34dce5;
+}
+
+#dashboard a,
+#dashboard span {
+  color: #f260b1;
+  background: none;
+  vertical-align: middle;
+  word-wrap: break-word;
+  box-shadow: none;
+}
+
+#dashboard a:hover {
+  background: none;
+  color: #34dce5;
+}
+
+#dashboard ul {
+  border-top: none;
+}
+
+#dashboard .current {
+  background: none;
+  color: #f260b1;
+  border-style: solid;
+  border-radius: 65px 5px 5px 5px;
+}
+
+#dashboard,
+#dashboard.own,
+#dashboard.admin.region {
+  background: none;
+  border-top: #f260b1;
+  border-bottom: #f260b1;
+}
+
+ul.skin.picture.index.group li.blurb {
+  background: none;
+  border: 1px solid #df6757;
+}
+
+#main.errors {
+  background: url("https://i.imgur.com/tbFEHM4.png") top right no-repeat;
+}
+
+#main.error-502 {
+  background: url("https://i.imgur.com/rpK6MAn.png") top right no-repeat;
+}
+
+#main.error-503-maintenance {
+  background: url("https://i.imgur.com/ch9IKEp.png") top right no-repeat;
+}
+
+div.comment,
+li.comment {
+  border: 1px solid #cc4beb;
+  background: none;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #cc4beb;
+}
+
+.comment .icon .anonymous {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.comment .icon .visitor {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.index .skins .icon {
+  background: url("https://i.imgur.com/BnKPr3U.png");
+  background-size: contain;
+  border: 1px solid #f260b1;
+}
+
+.index .mystery .icon {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-size: contain;
+}
+
+.index .tag .icon,
+.index .tagset .icon {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-size: contain;
+  border: 1px solid #f260b1;
+}
+
+.comment h4.byline {
+  background: #240830;
+  color: #df6757;
+  border-top: 1px solid #df6757;
+  border-left: 1px solid #df6757;
+  border-right: 1px solid #df6757;
+  border-bottom: none;
+}
+
+.comment h4.byline a {
+  color: #df6757 !important;
+}
+
+li.comment {
+  color: #cc4beb;
+  border: 1px solid #df6757;
+}
+
+.thread .even {
+  border: 1px solid #df6757;
+  background: #240830;
+  color: #df6757;
+}
+
+.abbreviated .icon .anonymous {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.abbreviated .icon .visitor {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.replied,
+span.claimed,
+.actions span.defaulted {
+  background: #240830;
+  color: #df6757;
+  border: 1px solid #df6757;
+}
+
+span.unread {
+  background: #df6757;
+  color: #240830;
+  border: 1px solid #df6757;
+}
+
+.actions span.defaulted {
+  color: #df6757;
+}
+
+.skins .primary .icon,
+.admin .primary .icon,
+.tag .primary .icon,
+.tagset .primary .icon .wrangler .primary .icon {
+  background: url("https://i.imgur.com/Gtfq0Fo.png");
+  border: 1px solid #f260b1;
+}
+
+p.kudos {
+  background: url("https://i.imgur.com/kMto48R.png") no-repeat;
+}
+
+p.kudos {
+  color: #f260b1 !important;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #f260b1;
+  border: 1px solid #f260b1;
+  color: #240830;
+  margin: .643em auto;
+  padding: .25em .375em;
+  clear: right;
+  box-shadow: none;
+  border-radius: .25em;
+}
+
+.caution {
+  background: #f260b1;
+  color: #240830;
+  border-color: #f260b1;
+}
+
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #f260b1;
+  border-color: #f260b1;
+  color: #240830;
+  box-shadow: none;
+}
+
+.required,
+.error,
+.alert.flash {
+  color: #fff;
+}
+
+dl.meta {
+  background: #240830;
+}
+
+dl.meta a {
+  color: #cc4beb;
+}
+
+.listbox>.heading,
+.listbox .heading a:visited {
+  margin: 0;
+  color: #cc4beb;
+  padding: .25em;
+}
+
+.listbox .index {
+  width: auto;
+  padding: .643em;
+  float: none;
+  clear: right;
+  background: #240830;
+  box-shadow: none;
+}
+
+.listbox a {
+  color: #34dce5 !important;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #34dce5;
+  vertical-align: bottom;
+}
+
+ol.work.index.group li,
+ol.bookmark.index.group li,
+li.collection.picture.blurb.group,
+li.user.pseud.picture.blurb.group {
+  background: #240830;
+}
+
+ol.work.index.group li.blurb {
+  border: 1px solid #34dce5;
+}
+
+.blurb .relationships {
+  background: transparent;
+}
+
+li.relationships a,
+.work .relationship a.tag {
+  background: none;
+}
+
+.warnings .tag,
+.work .warning a.tag,
+dt.warning.tags a,
+dd.warning.tags a {
+  color: #df6757 !important;
+}
+
+.relationships .tag,
+.work .relationships a.tag,
+dt.relationship.tags,
+dd.relationship.tags a {
+  color: #f260b1 !important;
+}
+
+.characters .tag,
+.work .characters a.tag,
+dt.character.tags,
+dd.character.tags a {
+  color: #34dce5 !important;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag,
+dt.freeform.tags,
+dd.freeform.tags a {
+  color: #fdf9b3 !important;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type=submit],
+button,
+.actions label {
+  background: #240830;
+  color: #cc4beb !important;
+  background-image: none;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #34dce5;
+  box-shadow: none;
+}
+
+.current {
+  background: #f260b1;
+  color: #240830;
+  background-image: none;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #df6757;
+  box-shadow: none;
+}
+
+button {
+  font-family: "Century Gothic", sans-serif;
+  box-sizing: content-box;
+}
+
+label {
+  color: #f260b1;
+}
+
+.javascript {
+  background: #240830;
+}
+
+fieldset.comments,
+.comment .userstuff {
+  border: #df6757;
+  box-shadow: none;
+}
+
+fieldset {
+  background: url("https://wallpapercave.com/wp/8hIYog1.jpg");
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  display: block;
+  background: #240830;
+  border: 1px solid #34dce5;
+  color: #baddf0;
+  margin: .643em;
+  padding: .643em;
+  box-shadow: none;
+}
+
+fieldset dl,
+fieldset.actions,
+fieldset dl fieldset dl {
+  background: #240830;
+  color: #baddf0;
+  clear: right;
+  box-shadow: none;
+}
+
+fieldset fieldset,
+fieldset dl dl,
+form blockquote.userstuff {
+  background: #240830;
+  color: #baddf0;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: #240830;
+  border: 1px solid #34dce5;
+  padding: 0;
+  margin: .643em auto;
+  overflow: hidden;
+  box-shadow: none;
+}
+
+.filters .expander {
+  background: url("https://i.imgur.com/PiP0qAu.png") left center no-repeat;
+  border: none;
+  color: #f260b1;
+  height: 100%;
+  min-height: 1.786em;
+  outline: none;
+  padding: .25em 0 .25em 14px;
+  text-align: left;
+  white-space: normal;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.filters .expanded .expander {
+  background-image: url("https://i.imgur.com/zTysdUV.png");
+}
+
+.filters dt {
+  background-color: transparent;
+  border: none;
+}
+
+table {
+  background: #240830;
+  border-color: #f260b1;
+  border-collapse: collapse;
+}
+
+thead,
+tfoot {
+  border-bottom: 1px solid #f260b1;
+}
+
+tfoot td {
+  border-top: 1px solid #f260b1;
+}
+
+tbody tr {
+  border-bottom: 1px solid #fff;
+}
+
+thead td {
+  background: #240830;
+  color: #fddbdc;
+  border-bottom: 1px solid #fddbdc;
+}
+
+span.question {
+  background: #f260b1;
+  border: none;
+  box-shadow: none;
+  color: #240830;
+}
+
+#modal {
+  background: #240830;
+  border: 3px solid #df6757;
+  box-shadow: none;
+  color: #fddbdc;
+}
+
+form.search input[type=text],
+form.search input[type=submit],
+.autocomplete div.dropdown ul {
+  background: #240830;
+  border: 1px solid #f260b1;
+  color: #fddbdc;
+  display: block;
+  box-shadow: none;
+}
+
+input,
+input:focus,
+select,
+select:focus,
+textarea,
+textarea:focus {
+  background: #240830;
+  color: #baddf0;
+}
+
+textarea {
+  background: #240830;
+  color: #fddbdc;
+}
+
+.LV_invalid,
+form.notice,
+p.notice {
+  background: #df6757;
+  border: 1px solid #df6757;
+  color: #240830;
+  box-shadow: none;
+  border-radius: .25em;
+  font-weight: normal;
+  font-family: "Century Gothic", sans-serif;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #240830;
+  border: 1px solid #34dce5;
+  box-shadow: none;
+}
+
+.tox .tox-edit-area__iframe {
+  background-color: #240830;
+  color: #baddf0;
+}
+
+.draft {
+  background: #240830;
+  color: #df6757 !important;
+}
+
+.toggled form,
+.dynamic form {
+  padding: .5em;
+  border: 1px solid #f260b1;
+  background: url("https://wallpapercave.com/wp/8hIYog1.jpg");
+  box-shadow: none;
+  color: #fff;
+}
+
+ul.series.work.index.group li {
+  background: #240830;
+}
+
+.statistics .index li:nth-of-type(even) {
+  background: #240830;
+}
+
+li.unread.comment.group h4.byline {
+  background: #df6757;
+  color: #240830;
+}
+
+li.unread.comment.group h4.byline a {
+  color: #240830 !important;
+}
+
+dl.index dd {
+  background: #240830;
+}
+
+.reading h4.viewed,
+li.blurb,
+div.dynamic {
+  background: #240830;
+}
+
+.notice a,
+.comment_notice a,
+.kudos_notice a,
+ul.notes a,
+.caution a,
+.error a,
+.comment_error a,
+.kudos_error a,
+.alert.flash a {
+  font-weight: bold;
+  color: #240830 !important;
+}
+
+.secondary {
+  background: #240830;
+  border: none;
+  box-shadow: none;
+}
+
+th,
+.child {
+  background: #240830;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 70%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(300deg);
+  opacity: 90% !important;
+}
+
+#stat_chart svg text {
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:hover {
+  filter: hue-rotate(117deg);
+}
+
+p.footnote {
+  color: #df6757;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+span.count a {
+  background: #240830;
+}
+
+.status .public {
+  background-image: url("https://i.imgur.com/dIjWwlu.png");
+}
+
+.status .private .text {
+  background-image: url("https://i.imgur.com/2b6prOi.png");
+}
+
+.event .userstuff {
+  background-image: url("https://wallpapercave.com/wp/8hIYog1.jpg");
+  border: 1px solid #34dce5;
+}
