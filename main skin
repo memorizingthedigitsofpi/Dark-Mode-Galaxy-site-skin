@@ -809,24 +809,6 @@ th,
   background: #240830;
 }
 
-#stat_chart svg rect:first-of-type {
-  opacity: 70%;
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
-#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
-  filter: hue-rotate(300deg);
-  opacity: 90% !important;
-}
-
-#stat_chart svg text {
-  font-family: "Century Gothic", Arial, sans-serif;
-}
-
-#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:hover {
-  filter: hue-rotate(117deg);
-}
 
 p.footnote {
   color: #df6757;
@@ -851,4 +833,88 @@ span.count a {
 .event .userstuff {
   background-image: url("https://wallpapercave.com/wp/8hIYog1.jpg");
   border: 1px solid #34dce5;
+}
+
+
+
+
+
+/* ---- UPDATE AS OF JUNE 2026 ---- */
+
+span.rating-general-audience.rating,
+span.category-gen.category,
+span.complete-yes.iswip {
+  filter: saturate(150%) hue-rotate(90deg) brightness(90%) contrast(150%);
+}
+
+span.rating-teen.rating {
+  filter: hue-rotate(200deg) brightness(70%) saturate(150%) contrast(290%);
+}
+
+span.category-slash.category {
+  filter: brightness(160%) saturate(110%);
+}
+
+span.category-het.category {
+  filter: brightness(150%) hue-rotate(340deg) saturate(130%) contrast(110%);
+}
+
+span.category-multi.category {
+  filter: brightness(150%) saturate(120%) contrast(110%);
+}
+
+span.rating-mature.rating,
+span.warning-choosenotto.warnings {
+  filter: saturate(140%) hue-rotate(330deg) brightness(140%) contrast(120%);
+}
+
+span.rating-notrated.rating,
+span.category-none.category,
+span.warning-no.warnings {
+  filter: brightness(0) saturate(100%) invert(3%) sepia(64%) saturate(6915%) hue-rotate(280deg) brightness(92%) contrast(100%);
+}
+
+span.rating-explicit.rating,
+span.category-femslash.category,
+span.warning-yes.warnings,
+span.complete-no.iswip {
+  filter: hue-rotate(340deg) brightness(160%) contrast(110%) saturate(80%);
+}
+
+.blurb h4.heading a:visited {
+  color: #592923 !important;
+}
+
+#main a:hover {
+  background: rgba(242, 96, 177, 0.2);
+}
+
+#stat_chart svg rect:first-of-type,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type {
+  filter: brightness(0) saturate(100%) invert(3%) sepia(64%) saturate(6915%) hue-rotate(290deg) brightness(92%) contrast(110%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(1) {
+  filter: saturate(215%) hue-rotate(290deg) brightness(92%) contrast(110%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(2) {
+  filter: saturate(215%) hue-rotate(185deg) brightness(160%) contrast(110%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(3) {
+  filter: saturate(215%) hue-rotate(40deg) brightness(160%) contrast(110%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(4) {
+  filter: saturate(315%) hue-rotate(320deg) brightness(180%) contrast(110%);
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(5) {
+  filter: saturate(215%) hue-rotate(120deg) brightness(160%) contrast(110%);
+}
+
+#stat_chart svg text {
+  font-family: "Century Gothic", Arial, sans-serif;
+  filter: invert(100%);
 }
